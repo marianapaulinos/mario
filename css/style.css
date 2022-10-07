@@ -1,0 +1,35 @@
+/*
+    CSS é chamado de linguagem Cascading Style Sheet 
+    e é usado para estilizar elementos escritos em uma 
+    linguagem de marcação como HTML. O CSS separa o 
+    conteúdo da representação visual do site. 
+    Pense  na decoração da sua página. Utilizando o CSS 
+    é possível alterar a cor do texto e do fundo, fonte 
+    e espaçamento entre parágrafos. Também pode criar 
+    tabelas, usar variações de layouts, ajustar imagens 
+    para suas respectivas telas e assim por diante.
+*/
+
+/* * para manipular a pagina
+    margin: 0px para tirar a margin dos elementos por padrão
+    box-sizing: border-box para colocar os elementos em proporção
+*/
+* {
+
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+/* #canvas vai ser ode manipularemos o canvas
+    postion:absolute indica que a posição dele será absoluto na tela
+    top: 0px dizemos que ele estará no topo do site
+    left: 0px para que ele fique no inicio da esquerda do site
+*/
+#canvas {
+
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+
+}
